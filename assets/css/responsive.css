@@ -1,0 +1,576 @@
+/* Responsive */
+@media screen and (max-width: 1320px) {
+    .jumbotron .divider {
+        width: 800px;
+        margin-left: 17%;
+        font-size: 15px;
+        transition: all 1.3s;
+    }
+    
+    .jumbotron h1{
+        letter-spacing: 15px;
+    }
+    
+    .jumbotron p{
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .jumbotron .divider {
+        width: 750px;
+        font-size: 13px;
+        transition: all 1.3s;
+    }
+    
+    .jumbotron h1{
+        letter-spacing: 14px;
+    }
+    
+    .jumbotron p{
+        letter-spacing: 4px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .jumbotron .divider {
+        width: 710px;
+        font-size: 13px;
+        transition: all 1.3s;
+    }
+    
+    .jumbotron h1{
+        letter-spacing: 13px;
+    }
+    
+    .jumbotron p{
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (max-width: 1068px) {
+    header#background {
+        height: 450px;
+    }
+
+    .jumbotron .divider {
+        width: 680px;
+        font-size: 12px;
+        transition: all 1.3s;
+    }
+    
+    .jumbotron h1{
+        letter-spacing: 14px;
+    }
+    
+    .jumbotron p{
+        letter-spacing: 4px;
+    }
+
+    .table_data .header {
+        font-size: 1.45em;
+    }
+
+    .table_data .options {
+        font-size: 0.85em;
+    }
+
+    .table_data .options > li:before {
+      width: 14px;
+      height: 14px;
+      padding: 1.5px;
+    }
+
+    .table_data .pricing {
+        font-size: 2.8em;
+    }
+
+    .table_data .pricing span:first-of-type {
+        font-size: 0.3em;
+    }
+
+    .table_data .pricing span:last-of-type {
+        font-size: 0.25em;
+    }
+
+    .table_data .getstart {
+        font-size: 0.95em;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .jumbotron .divider {
+        width: 605px;
+        font-size: 12px;
+        transition: all 1.3s;
+    }
+    
+    .jumbotron h1{
+        letter-spacing: 13px;
+    }
+    
+    .jumbotron p{
+        letter-spacing: 3px;
+    }
+
+    body {
+        font-size: 80%;
+    }
+  
+    h2.heading-2 {
+        font-size: 23px;
+    }
+  
+    h2.heading-branch {
+        font-size: 20px;
+    }
+
+    .blury-card:hover .frame {
+        width: calc(100% - 180px);
+        height: calc(100% - 180px);
+    }
+}
+
+@media screen and (max-width: 915px) {
+    header#background {
+        height: 450px;
+    }
+
+    .jumbotron .divider {
+        width: 545px;
+        font-size: 11px;
+        transition: all 1.3s;
+    }
+    
+    .jumbotron h1{
+        letter-spacing: 12px;
+    }
+    
+    .jumbotron p{
+        letter-spacing: 2px;
+    }
+
+    nav ul {
+        width: 50%;
+        top: -11px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .jumbotron .divider {
+        width: 490px;
+        font-size: 10px;
+        transition: all 1.3s;
+    }
+    
+    .jumbotron h1{
+        letter-spacing: 11px;
+    }
+    
+    .jumbotron p{
+        letter-spacing: 1px;
+    }
+    
+    nav ul {
+        width: 60%;
+    }
+
+    .list_branch {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header#background {
+        height: 450px;
+    }
+
+    .jumbotron .divider {
+        width: 435px;
+        font-size: 10px;
+        transition: all 1.3s;
+    }
+    
+    .jumbotron h1{
+        letter-spacing: 11px;
+    }
+    
+    .jumbotron p{
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    nav ul {
+        width: 65%;
+    }
+
+    .table_data {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        max-width: 90%;
+        margin-bottom: 20px;
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    .table_data:after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+
+    .table_data:hover {
+        -webkit-transform: none;
+        transform: none;
+    }
+      
+    .table_data:not(:last-of-type) {
+        margin-right: auto;
+    }
+  
+    .table_data:nth-of-type(2) h1 {
+        padding-top: 8%;
+    }
+
+    .table_data:nth-of-type(2):before {
+        left: 10px;
+        width: 45px;
+        height: 45px;
+        top: -10px;
+        padding-top: 13px;
+    }
+
+    .table_data .header {
+        padding: 0px;
+        border-bottom: none;
+        float: left;
+        width: 33%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+
+    .table_data .options {
+        border-bottom: none;
+        padding: 0;
+        margin-right: 10%;
+    }
+
+    .table_data .pricing {
+        border-bottom: none;
+        padding: 0;
+        float: left;
+        clear: left;
+        width: 33%;
+    }
+
+    .table_data .options > li {
+        text-align: left;
+    }
+
+    .table_data .options > li:before {
+        width: 12px;
+        height: 12px;
+    }
+
+    .table_data .getstart {
+        margin-top: 0;
+    }
+
+    .table_data .getstart:hover {
+        -webkit-transform: none;
+        transform: none;
+        box-shadow: none;
+    }
+
+    .table_data .getstart:active {
+        -webkit-transform: scale(0.95) translateY(0);
+        transform: scale(0.95) translateY(0);
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .jumbotron .divider {
+        width: 365px;
+        font-size: 10px;
+        transition: all 1.3s;
+    }
+    
+    .jumbotron h1{
+        letter-spacing: 10px;
+    }
+    
+    .table_data .header {
+        font-size: 1.3em;
+    }
+
+    .table_data .pricing {
+        font-size: 2.4em;
+    }
+
+    .table_data .options {
+        font-size: 0.7em;
+        margin-right: 8%;
+    }
+
+    .table_data .options > li {
+        padding: 5px 0;
+    }
+
+    .table_data .getstart {
+      font-size: 0.9em;
+      padding: 10px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+    header#background {
+        height: 450px;
+    }
+
+    .jumbotron .divider {
+        width: 330px;
+        font-size: 9px;
+        transition: all 1.3s;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+    
+    nav ul {
+        position: absolute;
+        font-size: 15px;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color:#427ED0;
+        z-index: 1;
+        transform: translateX(100%);
+        transition: all 1.3s;
+        opacity: 0;
+    }
+
+    nav .logo img {
+        left: -30px;
+    }
+
+    nav .menu-toggle {
+        right: -30px;
+    }
+
+    nav ul.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .about h2.heading-2 {
+        font-size: 23px;
+    }
+
+    .branch h2.heading-2 {
+        font-size: 23px;
+    }
+
+    .gallery h2.heading-2 {
+        font-size: 23px;
+    }
+
+    .contact h2.heading-2 {
+        font-size: 23px;
+    }
+
+    .contact h2.heading-2-map {
+        font-size: 18px;
+    }
+
+    .about p.paragraf{
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .about p.paragrafP{
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .branch p{
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .gallery p{
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .contact p{
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .contact span{
+        font-size: 15px;
+        padding: 0.5em;
+    }
+
+    .profile {
+        right: 0;
+        margin-bottom: 30px;
+    }
+
+    .branch {
+        padding-bottom: 55px;
+    }
+
+    .list_branch {
+        width: 100%;
+    }
+
+    .pricingTable .subtitle {
+        margin-bottom: 30px;
+    }
+
+    .contact label {
+        font-size: 15px;
+    }
+
+    .contact button {
+        float: right;
+    }
+    
+    .contact form button.btn {
+        border-radius: 3px !important;
+        font-size: 13px;
+    }
+
+    .btn.btn-outline-message {
+        background-color: #427ED0;
+        border: 2px solid #3A77CA;
+        font-family: "QuickSand-Bold";
+        padding: 0.7em;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 496px) {
+    .jumbotron .divider {
+        width: 275px;
+        font-size: 9px;
+        transition: all 1.3s;
+    }
+
+    body {
+      font-size: 55%;
+    }
+
+    h2.heading-2 {
+        font-size: 23px;
+    }
+
+    h2.heading-branch {
+        font-size: 20px;
+    }
+
+    .blury-card:hover .frame {
+        width: calc(100% - 150px);
+        height: calc(100% - 150px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .jumbotron .divider {
+        width: 220px;
+        font-size: 9px;
+        transition: all 1.3s;
+    }
+
+    .table_data .header {
+        float: none;
+        width: 100%;
+        font-size: 1.8em;
+        margin-bottom: 5px;
+    }
+
+    .table_data .options {
+        font-size: 1.3em;
+        margin-right: none;
+        margin-bottom: 10px;
+    }
+
+    .table_data .options > li {
+        text-align: center;
+    }
+
+    .table_data:nth-of-type(2):before {
+      font-size: 0.8em;
+    }
+
+    .table_data .pricing {
+        float: none;
+        width: 100%;
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+
+    .table_data .getstart {
+        font-size: 1em;
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .blury-card:hover .frame {
+        width: calc(100% - 150px);
+        height: calc(100% - 150px);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .blury-card:hover .frame {
+        width: calc(100% - 75px);
+        height: calc(100% - 75px);
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .jumbotron .divider {
+        width: 210px;
+        font-size: 7px;
+        transition: all 1.3s;
+    }
+
+    .jumbotron p {
+        font-size: 9px;
+    }
+
+    .blury-card:hover .frame {
+        width: calc(100% - 40px);
+        height: calc(100% - 40px);
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .jumbotron .divider {
+        width: 175px;
+        font-size: 7px;
+        transition: all 1.3s;
+    }
+
+    .jumbotron p {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .jumbotron .divider {
+        width: 130px;
+        font-size: 6px;
+        transition: all 1.3s;
+    }
+}
